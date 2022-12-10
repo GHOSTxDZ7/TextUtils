@@ -45,9 +45,9 @@ function App() {
           <Navbar title='TextUtils' mode={mode} toggleMode={toggleMode} modeLable ={`${changeModeLable()}`}/>
           <Alert alert={alert}/>
           <Routes>
-            <Route exact path="/about" element={<About mode={mode}/>}/>
+            <Route path="/about" element={<About mode={mode}/>}/>
 
-            <Route exact path="/" element={<div className="container my-3">
+            <Route path="/" element={<div className="container my-3">
               <Text heading='Text Box' mode={mode} showAlert={showAlert}/>
               </div>}/>
           </Routes>
