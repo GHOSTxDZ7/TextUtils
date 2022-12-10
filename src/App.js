@@ -47,7 +47,7 @@ function App() {
           <Routes>
             <Route path="/about" element={<About mode={mode}/>}/>
 
-            <Route path="/" element={<div className="container my-3">
+            <Route path="/textutils" element={<div className="container my-3">
               <Text heading='Text Box' mode={mode} showAlert={showAlert}/>
               </div>}/>
           </Routes>
