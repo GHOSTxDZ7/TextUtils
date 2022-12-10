@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  position: absolute;
+  right: 1px;
+}
+#switch {
+  position: absolute;
+  right: 10px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.thanks {
+  position:absolute;
+  width: 80%;
+  bottom:0;
+  text-align:center;
+  
+}
